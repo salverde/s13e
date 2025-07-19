@@ -7,10 +7,10 @@ version: 0.4.4
 favicon: favicon.ico
 
 # Theme-color for Android Chrome
-theme_color: "#58b77a"
+theme_color: "#131424"
 
 # personal information
-personal_des: Hello, homies!
+personal_des: hello my name is s13e, welcome to the site!
 
 # avatar
 avatar: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/images/avatar.min.jpeg
@@ -84,10 +84,10 @@ baidu_analytics: #Baidu ID
 # Lx use valine as comment system
 # You should create an application in Leancloud to get the appid and appkey
 comment:
-  enable: false
-  appid:
-  appkey:
-  notify: false
+  enable: true
+  appid: 0ucyNhrywwPZE9yBGPBiIZOJ-MdYXbMMI
+  appkey: zdFTwXMg6mvM7Hs2SfRA4IXw
+  notify: true
   verify: false
   placeholder: Say something.
   avatar: identicon
