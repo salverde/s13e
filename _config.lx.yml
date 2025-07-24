@@ -10,16 +10,16 @@ favicon: favicon.ico
 theme_color: "#131424"
 
 # personal information
-personal_des: hello my name is s13e, welcome to the site!
+personal_des: salomon valverde website
 
 # avatar
-avatar: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/images/avatar.min.jpeg
+avatar: /images/s13e-avatar-blkwh.jpg
 
 ###The options below are images information
 # Home cover
-cover: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/images/cover.min.jpeg
+cover: /images/wh-3zkgwy.png
 # page cover
-postcover: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/images/post_cover.min.jpeg
+postcover: /images/wh-zy5d8o.jpg
 # the cover of newer or older post
 pre_post: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/images/footer-r.min.jpeg
 nex_post: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/images/footer-l.min.jpeg
