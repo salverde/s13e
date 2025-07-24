@@ -21,8 +21,8 @@ cover: /images/wh-3zkgwy.png
 # page cover
 postcover: /images/wh-zy5d8o.jpg
 # the cover of newer or older post
-pre_post: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/images/footer-r.min.jpeg
-nex_post: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/images/footer-l.min.jpeg
+pre_post: /images/wh-xlj773.jpg
+nex_post: /images/wh-lmg57q.jpg
 
 # menu content
 menu:
