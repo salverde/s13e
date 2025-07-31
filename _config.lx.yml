@@ -27,41 +27,36 @@ nex_post: /images/wh-13dvvv.jpg
 # menu content
 menu:
   category: false #category
-  pages:  #the page created by yourself
+  pages: #the page created by yourself
     enable: true
     links:
-      Guestbook: guestbook/
       About: about/
   friends:
-    enable: true
+    enable: false
     links:
       Theme-Lx: https://lx.js.org
 
-
 # social links
 #
-# links:
-# name:
-#   icon: fontawesome icon
-#   link: url
+links:
 social:
   enable: true
   links:
-  GitHub:
-    icon: github
-    link: https://github.com/yourname
-  Email:
-    icon: envelope
-    link: mailto:your@email.address
-  # Weibo:
-  #    icon: weibo
-  #    link: https://weibo.com/yourname
-  #  Twitter:
-  #    icon: twitter
-  #    link: https://twitter.com/yourname
-  Instagram:
-    icon: instagram
-    link: https://instagram.com/yourname
+    GitHub:
+      icon: github
+      link: https://github.com/salverde
+    Gitlab:
+      icon: gitlab
+      link: https://gitlab.com/salverde
+    Email:
+      icon: envelope
+      link: mailto:s13e.xl@icloud.com
+    #  Twitter:
+    #    icon: twitter
+    #    link: https://twitter.com/yourname
+    Instagram:
+      icon: instagram
+      link: https://instagram.com/salverde
 
 # local search
 #install first:
@@ -111,25 +106,22 @@ font:
   codes: ##the font for codes
     enable: true
     family: Fira Code
-  else:  ##the font for others
-    enable: false
-    family: Noto Serif SC
+  else: ##the font for rest site
+    enable: true
+    family: Inter Tight
 
 # Custom head code
-custom_head:
+# custom_head:
 
 # Custom CSS
 # If true, Lx will load 'source/css/custom.styl'
-custom_css: false
-
-
+custom_css: true
 
 ########### Develop Options ############
 ############# Warning ##################
 ####### Don't edit options below #######
 ## unless you know what you are doing ##
 ############# Warning ##################
-
 
 #The dir of Js and Css
 base_file:
