@@ -38,22 +38,18 @@ menu:
 
 # social links
 #
-links:
 social:
   enable: true
   links:
     GitHub:
-      icon: github
+      icon: github-alt
       link: https://github.com/salverde
     Gitlab:
       icon: gitlab
       link: https://gitlab.com/salverde
     Email:
-      icon: envelope
+      icon: send
       link: mailto:s13e.xl@icloud.com
-    #  Twitter:
-    #    icon: twitter
-    #    link: https://twitter.com/yourname
     Instagram:
       icon: instagram
       link: https://instagram.com/salverde
@@ -110,7 +106,7 @@ font:
     enable: true
     family: Inter Tight
 
-# Custom head code
+# Custom head code ex: <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js></script>
 # custom_head:
 
 # Custom CSS
