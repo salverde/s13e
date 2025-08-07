@@ -4,16 +4,16 @@
 
 # Site
 title: s13e_xl
-subtitle: 'A simple & clear & elegant hexo theme </br> <a href="https://github.com/blleng/hexo-theme-lx"><img alt="star me on github" src="https://cdn.jsdelivr.net/gh/blleng/images/upload/star.svg"/></a>'
-description: "salomon valverde a computer programmer that is versatile across many spaces and stacks..."
-keywords: salomon valverde, software developer, craftsman
+subtitle: "the website of salomon valverde or s13e for short."
+description: "salomon valverde a software craftsman that is versed across many stacks and ecosystems."
+keywords: s13e, software developer, mobile developer, devops, denver, albuquerque
 author: s13e
 language: en
 timezone: "America/Denver"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://salverde.github.io/s13e-blog
+url: https://salverde.github.io/s13e
 permalink: :title/
 permalink_defaults:
 pretty_urls:
@@ -102,55 +102,12 @@ theme: lx
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
-# theme_config:
-#   personal_des: Code Changes The World!
-#
-#   menu:
-#     category: true
-#     pages:
-#       enable: true
-#       links:
-#         Guestbook: guestbook/
-#         About: about/
-#     friends:
-#       enable: true
-#       links:
-#         Dev Version: https://lx.blleng.cn
-#
-#   social:
-#     enable: true
-#     links:
-#       GitHub:
-#         icon: github
-#         link: https://github.com/blleng
-#       Email:
-#         icon: envelope
-#         link: mailto:l0bl@outlook.com
-#
-#   local_search:
-#     enable: true
-#     trigger: auto
-#     top_n_per_article: 1
-#     unescape: false
-#     preload: false
-#     placeholder: Search...
-#
-#   footer: <a href="https://github.com/blleng/hexo-theme-lx">Star</a> me if you like.
-#
-#   google_analytics: G-ERG340CL7Z
-#
-#   custom_head: <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8880124247029361" crossorigin="anonymous"></script>
-#
-#   comment:
-#     enable: true
-#     appid: tLxzstD3vEiOSxwWGjynT5XP-gzGzoHsz
-#     appkey: YHkuTnCBpCcsod800tQRMahH
-#     notify: false
-#     verify: true
-#     placeholder: Say something...
-#     avatar: identicon
-#     guest_info: nick,mail,link
-#     pageSize: 10
-#     language: en
-#     cdn: https://cdn.jsdelivr.net/npm/valine@1.4.18/dist/Valine.min.js
+  type: git
+  message: one command deploy via hexo-deployer-git plug
+  repo: https://github.com/salverde/s13e.git
+  branch: main
+  extend_dirs:
+  ignore_hidden:
+    public: false
+  ignore_pattern:
+    [folder]: regexp # or you could specify the ignore_pattern under a certain directory
