@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: s13e_xl
-subtitle: "the website of salomon valverde or s13e for short."
+title: "Hey, I am Salomon"
+subtitle: "This is my tiny digital corner where I will share about all things software, micro computer hacks, music and more."
 description: "salomon valverde a software craftsman that is versed across many stacks and ecosystems."
 keywords: s13e, software developer, mobile developer, devops, denver, albuquerque
 author: s13e
@@ -12,7 +12,7 @@ language: en
 timezone: "America/Denver"
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+## Set your site url here. For example, if you use GitHub Page, set ur as 'https://username.github.io/project'
 url: https://salverde.github.io/s13e
 permalink: :title/
 permalink_defaults:
@@ -90,9 +90,9 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
-ignore:
+# include:
+# exclude:
+# ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -103,11 +103,11 @@ theme: lx
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  message: one command deploy via hexo-deployer-git plug
+  message: "one command deploy via hexo-deployer-git plug"
   repo: https://github.com/salverde/s13e.git
   branch: main
   extend_dirs:
   ignore_hidden:
     public: false
   ignore_pattern:
-    [folder]: regexp # or you could specify the ignore_pattern under a certain directory
+    # [folder]: regexp # or you could specify the ignore_pattern under a certain directory
