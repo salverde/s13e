@@ -31,10 +31,9 @@ menu:
     enable: true
     links:
       About: about/
+      Uses: uses/
   friends:
     enable: false
-    links:
-      Theme-Lx: https://lx.js.org
 
 # social links
 #

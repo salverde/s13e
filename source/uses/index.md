@@ -7,8 +7,9 @@ date: 2025-08-14 02:18:40
 
 {% note primary %}
 ### What is /uses?
+Make sure to check out {%link "uses.tech" https://uses.tech %} for a list of everyone's /uses pages
+
 I change specs of my setup fairly often so this page will serve as a living document and a place to point curious developers to when I get asked.
-Make sure to check out {%link "uses.tech" https://uses.tech %} for a list of everyone's /uses pages!
 {% endnote %}
 
 ## Editors/Terminals
@@ -21,13 +22,13 @@ Make sure to check out {%link "uses.tech" https://uses.tech %} for a list of eve
 - For my terminal, I'm currently using Wezterm with WSL Ubuntu 20.04 LTS inside a nested TMUX. I used Mintty and then Windows Terminal but Wezterm has a more minimalistic look. If you are curious, here is my Wezterm config.
 - If you are interested in my other configs such as zshrc, bashrc, gitconfig, you can check my Ubuntu, Windows and Arch Linux dotfile repositories. Please keep in mind that my configs are personal and opinionated, although they work for me, they might not be the best for you.
 
-## Hardware
+## Apps
 
 - lorem ipsum
 - lorem ipsum
 - lorem ipsum
 
-## Tools
+## Other Gear
 
 - lorem ipsum
 - lorem ipsum
