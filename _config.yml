@@ -3,8 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "Hey, I am Salomon"
-subtitle: "This is my tiny digital corner where I will share about all things software, micro computer hacks, music and more."
+numeronym: s13e
+title: "Hey, I'm Salomon"
+subtitle: "A Software Craftsman and Lutherie from the New Mexico (USA). If you want to find out more about me, use the navigation and check out the other pages on this website!"
 description: "salomon valverde a software craftsman that is versed across many stacks and ecosystems."
 keywords: s13e, software developer, mobile developer, devops, denver, albuquerque
 author: s13e

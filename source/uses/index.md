@@ -7,9 +7,9 @@ date: 2025-08-14 02:18:40
 
 {% note primary %}
 ### What is /uses?
-Make sure to check out {%link "uses.tech" https://uses.tech %} for a list of everyone's /uses pages
+Check out {%link "uses.tech" https://uses.tech %} for a list of everyone's /uses pages
 
-I change specs of my setup fairly often so this page will serve as a living document and a place to point curious developers to when I get asked.
+I change specs of my setup fairly often (always open to trying new things) so this page will serve as a living document and a place to point curious developers to when I get asked.
 {% endnote %}
 
 ## Editors/Terminals
