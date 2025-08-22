@@ -19,21 +19,21 @@ I change specs of my setup fairly often (always open to trying new things) so th
   - {%link 'solargraph' 'https://solargraph.org' %}
   - {%link 'biome' 'https://biomejs.dev' %}
   - flow.nvim (colorscheme)
-- My current Project based / workspace editor is {%link 'Zed' 'https://zed.dev' %}
+- My current project based / workspace editor is {%link 'Zed' 'https://zed.dev' %}.
   - The Batman (colorscheme)
 - {%link 'Kitty Terminal' 'https://sw.kovidgoyal.net/' %}
   - Modus Vivendi Tinted theme
   - Lilex Nerd Font (via `getnf`)
+- Browser of choice is always {%link 'Brave' 'https://brave.com' %}
+  - Runner up and always have running is Gnome Web Canary
+- Daily Notes is {%link 'Obsidian' 'https://obsidian.md'%}
+  - Longer more sizable writings than quick notes I tend to use {%link 'Typora' 'https://typora.io' %}
 
+{% note info %}
+### Fastfetch
+*System Information*
 {%img '/images/kitty-ff-shot.png' %}
-
-## Apps
-
-- lorem ipsum
-- lorem ipsum
-- lorem ipsum
+{% endnote %}
 
 ## Other Gear
-
-- lorem ipsum
-- lorem ipsum
+- *coming soon...*
