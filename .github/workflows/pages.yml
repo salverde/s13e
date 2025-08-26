@@ -36,6 +36,7 @@ jobs:
         run: |
           npm install -g hexo-cli
           npm install
+          git clone https://github.com/salverde/hexo-theme-lx.git themes/lx
 
       - name: Build
         # hexo clean
