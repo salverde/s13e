@@ -100,10 +100,10 @@ font:
   host: https://fonts.googleapis.com
   codes: ##the font for codes
     enable: true
-    family: Fira Code
+    family: Fira Mono
   else: ##the font for rest site
     enable: true
-    family: Inter Tight
+    family: Encode Sans Condensed
 
 # Custom head code ex: <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js></script>
 # custom_head:
