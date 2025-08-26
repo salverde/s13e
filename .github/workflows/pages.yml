@@ -16,8 +16,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
-          repository: salverde/hexo-theme-lx
-          ref: update-gulp-fix-custom-css
 
       - name: Use Node.js 22
         uses: actions/setup-node@v4
@@ -38,6 +36,13 @@ jobs:
         run: |
           npm install -g hexo-cli
           npm install
+      - name: Checkout submodule
+        uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: salverde/hexo-theme-lx
+          ref: update-gulp-fix-custom-css
+          path: themes/lx
 
       - name: Build
         # hexo clean
