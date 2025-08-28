@@ -14,24 +14,22 @@ jobs:
       - uses: actions/checkout@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
 
-      - name: Use Node.js 22
+      - name: Setup node v22
         uses: actions/setup-node@v4
         with:
           # Examples: 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
           # Ref: https://github.com/actions/setup-node#supported-version-syntax
           node-version: "22"
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Install hexo-cli
+        run: npm install hexo-cli
       - name: Install Node.js dependencies
-        run: |
-          npm install hexo-cli
-          "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Checkout submodule
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Checkout submodule hexo theme
         uses: actions/checkout@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
