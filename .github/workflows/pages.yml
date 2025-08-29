@@ -29,7 +29,7 @@ jobs:
         run: npm install hexo-cli
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Checkout submodule hexo theme
+      - name: Checkout submodule hexo themes
         uses: actions/checkout@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
