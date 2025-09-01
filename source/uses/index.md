@@ -18,10 +18,17 @@ Check out {%link "uses.tech" https://uses.tech %} for a list of everyone's /uses
   - {%link 'biome' 'https://biomejs.dev' %}
   - flow.nvim (colorscheme)
 - My current project based / workspace editor is {%link 'Zed' 'https://zed.dev' %}.
-  - The Batman (colorscheme)
-- {%link 'Kitty Terminal' 'https://sw.kovidgoyal.net/' %}
+  - Ember Dark (colorscheme)
+  - configured with {%link 'LazyVim keymaps' 'https://s13e.short.gy/v1HPRa' %}. Perfect!
+- ~~{%link 'Kitty Terminal' 'https://sw.kovidgoyal.net/' %}~~
   - Modus Vivendi Tinted theme
   - Lilex Nerd Font (via `getnf`)
+- {%link 'Ghostty' 'https://ghostty.org/' %} - Been all about this super fast terminal lately. It's written strictly for macos and linux using Swift and GTK4 respectively. that's what Im talking about!
+
+  {%blockquote Mitchell Hashimoto https://ghostty.org/docs/about %}
+  Importantly, Ghostty is a native application for macOS and Linux. On macOS, the GUI is written in Swift and uses AppKit and SwiftUI. On Linux, the GUI is written in Zig and uses the GTK4 C API1. The GUIs interface with a shared core written in Zig that we call "libghostty". For those unfamiliar with Zig, it is a systems programming language that compiles to native machine code.k
+  {%endblockquote%}
+
 - Browser of choice is always {%link 'Brave' 'https://brave.com' %}
   - Runner up and always have running is Gnome Web Canary
 - Daily Notes is {%link 'Obsidian' 'https://obsidian.md'%}
