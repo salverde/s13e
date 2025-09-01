@@ -25,8 +25,10 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+        # install hexo package
       - name: Install hexo-cli
         run: npm install hexo-cli
+       # npm clean install
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Checkout submodule hexo themes

@@ -36,9 +36,8 @@ Check out {%link "uses.tech" https://uses.tech %} for a list of everyone's /uses
 
 ## Tech Stacks
 - {%link 'Objective-C' 'https://s13e.short.gy/3tmWn0c' %} is my OG language of choice, mainly because
-I first learned it when the iPhone SDK was released. It's a great object-oriented language that has
-dynamic typing and the best part is - it is not C++! period.
-- {%link 'Swift' 'https://docs.swift.org/swift-book/documentation/the-swift-programming-language/aboutswift/'%} is a badass modern language that I wish I were still working with! Had a blast building apps with it when Apple first released it. Really enjoyed learning protocol oriented programming with it.
+I first learned it when the iPhone SDK was released. It's a great object-oriented language that has dynamic typing and the best part is - it is not C++! period.
+- {%link 'Swift' 'https://docs.swift.org/swift-book/documentation/the-swift-programming-language/aboutswift/'%} is a badass modern language that I wish I were still working with... Had a blast building apps with it when Apple first released it. Really enjoyed learning protocol oriented programming with it.
 - {%link 'Ruby' 'https://www.ruby-lang.org/en/documentation/'%} is my goto everyday high level language of choice. Built shit tons of APIs and web applications with it. Always be my goto server side tool for the job!
 - {%link 'Hugo' 'https://gohugo.io/'%} rocks! and its a fun static site generator.
 - {%link 'Hexo' 'https://hexo.io/'%} is a fast, simple, and efficient static site generator. And is what is running this site.
