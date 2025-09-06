@@ -107,7 +107,7 @@ font:
     family: Encode Sans Condensed
 
 # Custom head code ex: <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js></script>
-# custom_head:
+custom_head: <script defer data-domain="salverde.github.io/s13e" src="https://plausible.io/js/script.js"></script>
 
 # Custom CSS
 # If true, Lx will load 'source/css/custom.styl'
