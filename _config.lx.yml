@@ -42,17 +42,20 @@ social:
   enable: true
   links:
     GitHub:
-      icon: github-alt
+      icon: github
       link: https://github.com/salverde
     Gitlab:
       icon: gitlab
       link: https://gitlab.com/salverde
+    Reddit:
+      icon: reddit
+      link: https://reddit.com/user/_s13e_
+    Keybase:
+      icon: keybase
+      link: https://keybase.io/s13e
     Email:
       icon: send
       link: mailto:s13e.xl@icloud.com
-    Instagram:
-      icon: instagram
-      link: https://instagram.com/salverde
 
 # local search
 #install first:
@@ -94,7 +97,9 @@ mathjax:
 
 # FontAwesome-CDN
 font_awesome: https://cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
-
+# LineAwesome CDN
+# https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css
+line_awesome: https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css
 # Font
 font:
   enable: true
@@ -107,7 +112,7 @@ font:
     family: Encode Sans Condensed
 
 # Custom head code ex: <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js></script>
-custom_head: <script defer data-domain="salverde.github.io/s13e" src="https://plausible.io/js/script.js"></script>
+# custom_head: <script defer data-domain="salverde.github.io/s13e" src="https://plausible.io/js/script.js"></script>
 
 # Custom CSS
 # If true, Lx will load 'source/css/custom.styl'
